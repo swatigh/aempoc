@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>TrainingProjecr - UI content</comment>
+<entry key="createdBy">swati.ghadge</entry>
+<entry key="name">training.ui.content</entry>
+<entry key="created">2018-09-10T12:32:52.212+0530</entry>
+<entry key="groupId">com.adobe</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">TrainingProjecr Content Package</entry>
+<entry key="description">UI content package for TrainingProjecr</entry>
+<entry key="artifactId">training.ui.content</entry>
+<entry key="path">/etc/packages/TrainingProjecr Content Package/training.ui.content.zip</entry>
+</properties>

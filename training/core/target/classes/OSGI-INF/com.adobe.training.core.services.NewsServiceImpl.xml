@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="com.adobe.training.core.services.NewsServiceImpl" deactivate="deactivated" modified="modified">
+        <implementation class="com.adobe.training.core.services.NewsServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.adobe.training.core.services.NewsService"/>
+        </service>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.adobe.training.core.services.NewsServiceImpl"/>
+    </scr:component>
+</components>

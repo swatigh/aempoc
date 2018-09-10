@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Spanish"
+        pageTitle="New Project"
+        sling:resourceType="trainingprojecr/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="trainingprojecr/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="trainingprojecr/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="trainingprojecr/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+        
+        </par>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

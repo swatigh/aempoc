@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.adobe.training.core.schedulers.NewsUpdaterScheduler">
+    <OCD id="com.adobe.training.core.schedulers.NewsUpdaterScheduler" name="%com.adobe.training.core.schedulers.NewsUpdaterScheduler.name" description="%com.adobe.training.core.schedulers.NewsUpdaterScheduler.description">
+        <AD id="scheduler.expression" type="String" default="0/15\ *\ *\ *\ *\ ?" name="%com.adobe.training.core.schedulers.NewsUpdaterScheduler.scheduler.expression.name" description="%com.adobe.training.core.schedulers.NewsUpdaterScheduler.scheduler.expression.description"/>
+        <AD id="scheduler.concurrent" type="Boolean" default="false" name="%com.adobe.training.core.schedulers.NewsUpdaterScheduler.scheduler.concurrent.name" description="%com.adobe.training.core.schedulers.NewsUpdaterScheduler.scheduler.concurrent.description"/>
+        <AD id="myParameter" type="String" name="%com.adobe.training.core.schedulers.NewsUpdaterScheduler.myParameter.name" description="%com.adobe.training.core.schedulers.NewsUpdaterScheduler.myParameter.description"/>
+    </OCD>
+    <Designate pid="com.adobe.training.core.schedulers.NewsUpdaterScheduler">
+        <Object ocdref="com.adobe.training.core.schedulers.NewsUpdaterScheduler"/>
+    </Designate>
+</metatype:MetaData>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.adobe.training.core.services.NewsServiceImpl">
+    <OCD id="com.adobe.training.core.services.NewsServiceImpl" name="%com.adobe.training.core.services.NewsServiceImpl.name" description="%com.adobe.training.core.services.NewsServiceImpl.description"/>
+    <Designate pid="com.adobe.training.core.services.NewsServiceImpl">
+        <Object ocdref="com.adobe.training.core.services.NewsServiceImpl"/>
+    </Designate>
+</metatype:MetaData>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.adobe.training.core.models.TestHelloWorldModel" time="0.533" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\workspace\osgi\training"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\workspace\osgi\training"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SWATI~1.GHA\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\workspace\osgi\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1463323246406925189.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Graphviz2.38\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;E:\installs\cudnn-9.0-windows7-x64-v7\cuda\bin;C:\Program Files\Apache\maven\bin;C:\Program Files\nodejs\;C:\cudnn-9.0-windows7-x64-v7\cuda\bin;E:\installs\nvcuda;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git LFS;C:\Program Files (x86)\Brackets\command;C:\Users\swati.ghadge\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\swati.ghadge\AppData\Local\Programs\Python\Python36\;C:\Users\swati.ghadge\AppData\Roaming\npm;E:\installs\gradle-4.5.1-all\gradle-4.5.1\bin;E:\installs\cudnn-9.0-windows7-x64-v7\cuda\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\cudnn-9.0-windows7-x64-v7\cuda\bin;C:\Users\swati.ghadge\AppData\Local\GitHubDesktop\bin;C:\Program Files\Apache\maven\bin;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;E:\gitRepo\kaggle_comp\comp2\models\research;E:\install\protoc-3.4.0-win32\bin;E:\example_python_AI\pytesser_v0.0.1;E:\gitRepo\kaggle_comp\comp1\santander\models;E:\gitRepo\kaggle_comp\comp2\models\research;E:\gitRepo\kaggle_comp\comp2\models\research\slim;C:\Users\swati.ghadge\AppData\Local\Programs\Python\Python36;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection\data;;E:\example_python_AI\pytesser_v0.0.1;E:\gitRepo\kaggle_comp\comp1\santander\models;E:\gitRepo\kaggle_comp\comp2\models\research;E:\gitRepo\kaggle_comp\comp2\models\research\slim;C:\Users\swati.ghadge\AppData\Local\Programs\Python\Python36;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection\data;;E:\example_python_AI\pytesser_v0.0.1;E:\gitRepo\kaggle_comp\comp1\santander\models;E:\gitRepo\kaggle_comp\comp2\models\research;E:\gitRepo\kaggle_comp\comp2\models\research\slim;C:\Users\swati.ghadge\AppData\Local\Programs\Python\Python36;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection\data;\Lib;E:\example_python_AI\pytesser_v0.0.1;E:\gitRepo\kaggle_comp\comp1\santander\models;E:\gitRepo\kaggle_comp\comp2\models\research;E:\gitRepo\kaggle_comp\comp2\models\research\slim;C:\Users\swati.ghadge\AppData\Local\Programs\Python\Python36;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection\data;\DLLs;E:\example_python_AI\pytesser_v0.0.1;E:\gitRepo\kaggle_comp\comp1\santander\models;E:\gitRepo\kaggle_comp\comp2\models\research;E:\gitRepo\kaggle_comp\comp2\models\research\slim;C:\Users\swati.ghadge\AppData\Local\Programs\Python\Python36;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection\data;\Lib\lib-tk; c:\users\swati.ghadge\appdata\local\programs\python\python36\lib\site-packages\;E:\gitRepo\kaggle_comp\comp2\models\research\object_detection\data;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\swati.ghadge"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="swati.ghadge"/>
+    <property name="java.class.path" value="D:\AEM\CODEBASE\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\workspace\osgi\training\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testGetMessage" classname="com.adobe.training.core.models.TestHelloWorldModel" time="0.533"/>
+</testsuite>
